@@ -1,5 +1,6 @@
 set -x
 
+echo "$data-set"
 sudo apt-get -y update
 cur_dir=$(pwd)
 data_dir=$cur_dir/model_data
